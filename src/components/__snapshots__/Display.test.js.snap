@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Component Test that when componentWillMount, loads data from store and display it in DOM 1`] = `
+Array [
+  <Display />,
+]
+`;
+
+exports[`Display Component it should render initial dom 1`] = `
+Array [
+  <div
+    className="Container-fluid"
+  >
+    <h3>
+      Add/Edit Notes
+    </h3>
+    
+    <Form
+      onSubmit={[Function]}
+      tag="form"
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Input
+          id="note"
+          name="note"
+          onChange={[Function]}
+          placeholder="Enter your note here"
+          type="textarea"
+          value=""
+        />
+      </FormGroup>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Submit
+      </Button>
+    </Form>
+  </div>,
+]
+`;
+
+exports[`Display Component it should render initial dom 2`] = `
+Array [
+  <div
+    className="Container-fluid"
+  >
+    <h3>
+      Add/Edit Notes
+    </h3>
+    
+    <Form
+      onSubmit={[Function]}
+      tag="form"
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Input
+          id="note"
+          name="note"
+          onChange={[Function]}
+          placeholder="Enter your note here"
+          type="textarea"
+          value=""
+        />
+      </FormGroup>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Submit
+      </Button>
+    </Form>
+  </div>,
+]
+`;
+
+exports[`Display Component it should render initial state 1`] = `
+Array [
+  <div
+    className="Container-fluid"
+  >
+    <h3>
+      Add/Edit Notes
+    </h3>
+    
+    <Form
+      onSubmit={[Function]}
+      tag="form"
+    >
+      <FormGroup
+        tag="div"
+      >
+        <Input
+          id="note"
+          name="note"
+          onChange={[Function]}
+          placeholder="Enter your note here"
+          type="textarea"
+          value=""
+        />
+      </FormGroup>
+      <Button
+        color="secondary"
+        tag="button"
+      >
+        Submit
+      </Button>
+    </Form>
+  </div>,
+]
+`;

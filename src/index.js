@@ -1,4 +1,7 @@
-const rootElem = document.getElementById('root');
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import 'bootstrap/dist/css/bootstrap.css';
 
-const html = rootElem.innerHTML;
-rootElem.innerHTML = 'Welcome to the Adeva take home test. Please follow the instructions in the README and have fun 😃.';
+const container = document.getElementById("root");
+ReactDOM.render(<App />, container);

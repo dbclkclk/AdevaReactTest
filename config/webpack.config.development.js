@@ -9,6 +9,7 @@ module.exports = Object.assign({}, configuration, {
     main: configuration.entry.main,
   },
   mode: 'development',
+  devtool: 'eval-source-map',
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new ExtractTextPlugin({
